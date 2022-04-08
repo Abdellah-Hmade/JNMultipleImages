@@ -1,6 +1,7 @@
 platform :ios, '9.0'
+project 'JNMultipleImages.xcodeproj'
 use_frameworks!
 
 target 'JNMultipleImages' do
-    pod 'SDWebImage', '~> 5.0.2'
+    pod 'SDWebImage'
 end
